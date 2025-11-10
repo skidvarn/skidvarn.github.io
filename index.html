@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Skidvarn - Audiovisual Art Portfolio">
+    <title>Skidvarn | Audiovisual Art</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <h1 class="logo">SKIDVARN</h1>
+            <ul class="nav-menu">
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2 class="hero-title">Audiovisual Art</h2>
+                <p class="hero-subtitle">Exploring the intersection of sound and vision</p>
+            </div>
+            <div class="hero-background"></div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <h2 class="section-title">Gallery</h2>
+            <div class="gallery-grid">
+                <article class="gallery-item" data-type="video">
+                    <div class="media-container">
+                        <div class="placeholder-media">
+                            <span class="media-icon">▶</span>
+                            <p>Video Art Piece</p>
+                        </div>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-title">Title Coming Soon</h3>
+                        <p class="item-description">Video installation exploring themes of space and time</p>
+                    </div>
+                </article>
+
+                <article class="gallery-item" data-type="audio">
+                    <div class="media-container">
+                        <div class="placeholder-media">
+                            <span class="media-icon">♪</span>
+                            <p>Audio Composition</p>
+                        </div>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-title">Sound Experiment</h3>
+                        <p class="item-description">Generative soundscape composition</p>
+                    </div>
+                </article>
+
+                <article class="gallery-item" data-type="interactive">
+                    <div class="media-container">
+                        <div class="placeholder-media interactive-canvas" id="canvas-1">
+                            <canvas></canvas>
+                        </div>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-title">Interactive Piece</h3>
+                        <p class="item-description">Move your cursor to interact</p>
+                    </div>
+                </article>
+
+                <article class="gallery-item" data-type="video">
+                    <div class="media-container">
+                        <div class="placeholder-media">
+                            <span class="media-icon">▶</span>
+                            <p>Visual Loop</p>
+                        </div>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-title">Hypnotic Patterns</h3>
+                        <p class="item-description">Mesmerizing visual loops and patterns</p>
+                    </div>
+                </article>
+
+                <article class="gallery-item" data-type="mixed">
+                    <div class="media-container">
+                        <div class="placeholder-media">
+                            <span class="media-icon">◆</span>
+                            <p>Mixed Media</p>
+                        </div>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-title">Synesthetic Experience</h3>
+                        <p class="item-description">Combining multiple sensory elements</p>
+                    </div>
+                </article>
+
+                <article class="gallery-item" data-type="audio">
+                    <div class="media-container">
+                        <div class="placeholder-media">
+                            <span class="media-icon">♪</span>
+                            <p>Ambient Soundscape</p>
+                        </div>
+                    </div>
+                    <div class="item-info">
+                        <h3 class="item-title">Digital Dreams</h3>
+                        <p class="item-description">Ethereal ambient composition</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="about-content">
+                <h2 class="section-title">About</h2>
+                <p class="about-text">
+                    Skidvarn is a digital space dedicated to audiovisual experimentation and artistic expression. 
+                    Through the fusion of sound, video, and interactive media, we explore new forms of digital art 
+                    that challenge perception and engage multiple senses.
+                </p>
+                <p class="about-text">
+                    This platform showcases experimental works that blend technology with creativity, 
+                    creating immersive experiences that exist at the boundary of art and code.
+                </p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="contact-text">Interested in collaborating or learning more?</p>
+            <div class="contact-links">
+                <a href="mailto:contact@skidvarn.live" class="contact-link">Email</a>
+                <a href="https://github.com/skidvarn" class="contact-link" target="_blank" rel="noopener">GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Skidvarn. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
